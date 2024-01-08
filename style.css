@@ -1,0 +1,14 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'airbnbBk';
+    src: url(fonts/AirbnbCerealBk.otf);
+}
+
+
+
+/* MAIN */
+
+body {
+    font-family: 'airbnbBk';
+}
