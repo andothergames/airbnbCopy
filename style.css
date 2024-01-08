@@ -12,3 +12,18 @@
 body {
     font-family: 'airbnbBk';
 }
+
+.roundButton, .searchBar { 
+    border-radius:50%
+}
+
+.roundButton, { 
+    border-style:solid;
+    border-color:grey;
+    border-width:1px;
+}
+
+.searchBar { 
+    /* PUT IN DROP SHADOW */
+}
+
