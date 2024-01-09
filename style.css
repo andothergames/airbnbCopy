@@ -13,153 +13,171 @@
 
 
 
-/* MAIN */
+/*----------- MAIN -----------*/
 
 body {
-    max-width:400px;
+    max-width: 400px;
     font-family: 'airbnbBk';
-    color:#222222;
+    color: #222222;
     margin: 0;
     padding: 0;
 }
 
-p, h1, h2, h3 {
-    margin:0;
-    padding:0;
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-family: 'airbnbMd';
-    font-size:14px;
+    font-size: 14px;
 }
 
 h3 {
-    font-size:12px;
-    color:#717171;
+    font-size: 15px;
+    color: #717171;
+    padding-top: 2px;
+}
+
+h4 {
+    font-size: 12px;
+    color: #717171;
 }
 
 li {
     font-size: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .punct {
-    padding-right:2px;
-    padding-left:2px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 hr {
     border-bottom: #222222 1px solid;
-    width:44px;
-    margin:0px;
-    margin-left:20px;
+    width: 44px;
+    margin: 0px;
+    margin-left: 20px;
 }
 
-/* HEADER SEARCHBOX */
+.bold {
+    font-family: 'airbnbMd';
+}
+
+/*-----------HEADER SEARCHBOX-----------*/
 
 .banner {
-border-bottom:1px;
-border-bottom-style:solid;
-padding-left:24px;
-padding-right:24px;
-/* ADD IN DROP SHADOW */
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    padding-left: 24px;
+    padding-right: 24px;
+    /* ADD IN DROP SHADOW */
 }
 
 .searchContainer {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3);
-    margin-top:16px;
+    margin-top: 16px;
     gap: 6px;
 }
 
 .searchIcon {
     grid-column: 1;
     grid-row: 1;
-    width:54px;
-    float:left;
-    padding-top:4px;
+    width: 54px;
+    float: left;
+    padding-top: 4px;
 }
 
 .searchText {
     grid-column: 2;
     grid-row: 1;
-    width:200px;
-    padding-top:8px;
+    width: 200px;
+    padding-top: 8px;
 }
 
-.searchText h3 {
-    padding-top:2px;
-}
-
-.searchToggle {
-    grid-column: 3;
-    grid-row: 1;
-    padding-top:8px;
+.searchText h4 {
+    padding-top: 2px;
 }
 
 .searchIcon li {
     text-align: center;
-    width:100%;
-    padding-top:14px; 
-    padding-bottom:14px; 
-    float:left;
-    }
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    float: left;
+}
 
 .searchBarBorder {
     /* ADD IN DROP SHADOW */
-    border-style:solid;
-    border-color:#717171;
-    border-width:1px;
-    border-radius:25px;
-    height:54px;
-    width:300px;
-    }
+    border-style: solid;
+    border-color: #717171;
+    border-width: 1px;
+    border-radius: 25px;
+    height: 54px;
+    width: 300px;
+}
 
-.toggle { 
-    border-style:solid;
-    border-color:#717171;
-    border-width:1px;
-    border-radius:50%;
-    width:40px;
-    height:40px;
-    justify-content:center;
+/* -----------TOGGLE----------- */
+
+.searchToggle {
+    grid-column: 3;
+    grid-row: 1;
+    padding-top: 8px;
+}
+
+.toggle {
+    border-style: solid;
+    border-color: #717171;
+    border-width: 1px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
 }
 
 .toggle li {
-text-align: center;
-width:100%;
-padding-top:10px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
 }
 
-/* HEADER PLACE TYPES */
+/* -----------HEADER PLACE TYPES----------- */
 
 .placeTypes {
-    display:grid;
+    display: grid;
     grid-template-columns: 5;
-    width:352px;
-    padding-top:12px;
+    width: 352px;
+    padding-top: 12px;
     font-size: 12px;
-    color:#717171;
+    color: #717171;
     text-align: center;
 }
 
 .placeTypes img {
-width:24px;
+    width: 24px;
 }
 
 .placeTypes p {
-    padding-bottom:8px;
+    padding-bottom: 8pxß;
 }
 
 .selected {
-    color:#222222;
-    font-family:'airbnbMd'
+    color: #222222;
+    font-family: 'airbnbMd'
 }
 
 .place1 {
     grid-column: 1;
     grid-row: 1;
-    
 }
+
 .place2 {
     grid-column: 2;
     grid-row: 1;
@@ -169,11 +187,103 @@ width:24px;
     grid-column: 3;
     grid-row: 1;
 }
+
 .place4 {
     grid-column: 4;
     grid-row: 1;
 }
+
 .place5 {
     grid-column: 5;
     grid-row: 1;
+}
+
+/* -----------LISTINGS----------- */
+
+.listing {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.listing img {
+    width: 352px;
+    height: 352px;
+    /* NOTE 26px is being added to this and i dont know why */
+    border-radius: 16px;
+    position: relative;
+    z-index: -1;
+}
+
+.listing h2,
+.price {
+    font-size: 15px;
+}
+
+.star {
+    display: inline;
+    float: right;
+    font-family: 'airbnbBk';
+}
+
+.price {
+    text-decoration: underline;
+    padding-top: 6px;
+}
+
+
+
+/* ICONS */
+
+.fa-heart {
+    color: #ffffff;
+    position: relative;
+    float: right;
+    top: -338px;
+    right: 30px;
+    z-index: 1;
+}
+
+.dots {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: -3px;
+}
+
+.dots span {
+    margin-left: 3px;
+}
+
+.dot,
+.wdot {
+    height: 6px;
+    width: 6px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.wdot {
+    background-color: #fff;
+}
+
+.mdot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.sdot {
+    height: 4px;
+    width: 4px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fa-star {
+    font-size: 8pt;
 }
