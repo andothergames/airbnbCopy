@@ -6,24 +6,96 @@
 }
 
 
+@font-face {
+    font-family: 'airbnbMd';
+    src: url(fonts/AirbnbCerealMd.otf);
+}
+
+
 
 /* MAIN */
 
 body {
     font-family: 'airbnbBk';
+    color:#222222;
+    margin: 0;
+    padding: 0;
 }
 
-.roundButton, .searchBar { 
-    border-radius:50%
+h2 {
+    font-family: 'airbnbMd';
+    font-size:14px;
+    margin:0;
+    padding:0;
 }
 
-.roundButton, { 
-    border-style:solid;
-    border-color:grey;
-    border-width:1px;
+h3 {
+    font-size:12px;
+    color:#717171;
+    margin:0;
+    padding:0;
 }
 
-.searchBar { 
+li {
+    font-size: 20px;
+}
+
+/* HEADER */
+
+.banner {
+border-bottom:1px;
+border-bottom-style:solid;
+
+}
+
+.toggle, .searchBar { 
+    margin:24px;
+}
+
+.searchBar {
     /* PUT IN DROP SHADOW */
+    border-style:solid;
+    border-color:#717171;
+    border-width:1px;
+    border-radius:25px;
+    }
+
+.searchBar li {
+display: inline-block;
+}
+
+.toggle { 
+    border-style:solid;
+    border-color:#717171;
+    border-width:1px;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+}
+
+.toggle li {
+text-align: center;
+width:100%;
+padding-top:10px;
+}
+
+
+
+.placeTypes {
+    margin:24px;
+}
+
+.place {
+    font-size: 12px;
+    color:#717171;
+    text-align: center;
+}
+
+.place img {
+width:24px;
+}
+
+.selected {
+    color:#222222;
 }
 
