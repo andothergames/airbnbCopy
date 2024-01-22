@@ -32,6 +32,14 @@ h4 {
     padding: 0;
 }
 
+h1 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'airbnbMd';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 h2 {
     font-family: 'airbnbMd';
     font-size: 14px;
@@ -286,4 +294,24 @@ hr {
 
 .fa-star {
     font-size: 8pt;
+}
+
+/* CONTINUE */
+
+.continue {
+    margin-top: 56px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+button {
+    margin-top: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'airbnbBk';
+    background-color: #222222;
+    width: 132px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: none;
 }
