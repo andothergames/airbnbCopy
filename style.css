@@ -374,9 +374,8 @@ padding-left:24px;
   {
     font-size:14px;
     font-family: 'airbnbMd';
-    padding-left:0px;
-    margin-bottom:12px;
-    /* padding-bottom:10px; */
+    margin:0px 0px 14px 0px;
+    padding: 0px;
   }
 
   .support li,
@@ -386,7 +385,31 @@ padding-left:24px;
     font-size:14px;
     font-family: 'airbnbBk';
     list-style-type: none;
-    padding-bottom:10px;
+    padding-bottom:12px;
+    margin:0px;
     color:#222222;
+  }
+
+  .footer {
+    padding: 24px 0px;
+  }
+
+  .footerBold {
+    margin-bottom: 12px;
+  }
+
+  .footerBold p span {
+    font-family:'airbnbMd';
+    font-size:12;
+  }
+
+  .footer li {
+    font-size: 14px;
+  }
+
+  .footer p {
+    font-size:14px;
+    margin: 0px 0px 2px;
+    padding-top:10px;
   }
 
