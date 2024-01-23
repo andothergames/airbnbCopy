@@ -17,6 +17,7 @@
 body {
     max-width: 400px;
     font-family: 'airbnbBk';
+    font-size:14px;
     color: #222222;
     margin: 0;
     padding: 0;
@@ -26,48 +27,59 @@ p,
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 1.57em;
+    font-family: 'airbnbMd';
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+h2 {
+    font-size: 1.28em;
     text-align: center;
     font-family: 'airbnbMd';
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-h2 {
+
+h3,
+.bold {
     font-family: 'airbnbMd';
-    font-size: 14px;
 }
 
-h3 {
-    font-size: 15px;
+h4 {
+    font-size: 1.07em;
     color: #717171;
     padding-top: 2px;
 }
 
-h4 {
-    font-size: 12px;
+h5 {
+    font-size: 0.857em;
     color: #717171;
 }
 
 li {
-    font-size: 20px;
+    font-size: 1.42em;
     padding: 0px;
     margin: 0px;
 }
 
-.punct {
+.interpunct {
     padding-right: 2px;
     padding-left: 2px;
 }
 
-.bold {
-    font-family: 'airbnbMd';
+
+
+.black {
+    color: #222222;
 }
 
 
@@ -106,7 +118,7 @@ nav {
     padding-top: 8px;
 }
 
-.search-text h4 {
+.search-text h5 {
     padding-top: 2px;
 }
 
@@ -161,7 +173,7 @@ nav {
     grid-template-columns: 5;
     width: 352px;
     padding-top: 12px;
-    font-size: 12px;
+    font-size: 0.857em;
     color: #717171;
     text-align: center;
 }
@@ -174,10 +186,7 @@ nav {
     padding-bottom: 8px;
 }
 
-.selected {
-    color: #222222;
-    font-family: 'airbnbMd'
-}
+
 
 .place1 {
     grid-column: 1;
@@ -229,9 +238,9 @@ nav {
     /* this is to ensure dots and heart sit above the image */
 }
 
-.listing h2,
+.listing h3,
 .price {
-    font-size: 15px;
+    font-size: 1.07em;
 }
 
 .star {
@@ -256,48 +265,48 @@ nav {
     right: 30px;
 }
 
-.dots {
+.nav-dots {
     text-align: center;
     position: relative;
     bottom: 32px;
     left: -3px;
 }
 
-.dots span {
+.nav-dots span {
     margin-left: 3px;
 }
 
 .dot,
-.wdot {
+.white-dot {
     height: 6px;
     width: 6px;
-    background-color: #bbb;
+    background-color: #bbbbbb;
     border-radius: 50%;
     display: inline-block;
 }
 
-.wdot {
-    background-color: #fff;
+.white-dot {
+    background-color: #ffffff;
 }
 
-.mdot {
+.med-dot {
     height: 5px;
     width: 5px;
-    background-color: #bbb;
+    background-color: #bbbbbb;
     border-radius: 50%;
     display: inline-block;
 }
 
-.sdot {
+.small-dot {
     height: 4px;
     width: 4px;
-    background-color: #bbb;
+    background-color: #bbbbbb;
     border-radius: 50%;
     display: inline-block;
 }
 
 .fa-star {
-    font-size: 8pt;
+    font-size: 0.57em;
 }
 
 
@@ -335,14 +344,7 @@ button {
     padding-left: 24px;
 }
 
-.inspiration p {
-    font-size: 22px;
-    font-family: 'airbnbMd';
-    padding-right: 24px;
-    padding-left: 24px;
-}
-
-.title-links {
+.inspiration-links {
     list-style-type: none;
     overflow: hidden;
     padding: 0px;
@@ -353,7 +355,7 @@ button {
     margin: 0px;
 }
 
-.title-links li {
+.inspiration-links li {
     float: left;
     display: block;
     font-size: 14px;
@@ -388,7 +390,6 @@ button {
 .support ul,
 .hosting ul,
 .airbnb ul {
-    font-size: 14px;
     font-family: 'airbnbMd';
     margin: 0px 0px 14px 0px;
     padding: 0px;
@@ -397,7 +398,7 @@ button {
 .support li,
 .hosting li,
 .airbnb li {
-    font-size: 14px;
+    font-size: 1em;
     font-family: 'airbnbBk';
     list-style-type: none;
     padding-bottom: 12px;
@@ -405,25 +406,15 @@ button {
     color: #222222;
 }
 
-.footer {
+footer {
     padding: 18px 0px 40px;
 }
 
-.footerBold {
-    margin-bottom: 12px;
-}
-
-.footerCurrency {
-    font-family: 'airbnbMd';
-    font-size: 14px;
-}
-
-.footer li {
-    font-size: 14px;
-}
-
-.footer p {
-    font-size: 14px;
+footer p {
     margin: 0px 0px 2px;
     padding-top: 8px;
+}
+
+footer li {
+    font-size:1em;
 }
