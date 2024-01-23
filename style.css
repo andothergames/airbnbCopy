@@ -336,17 +336,25 @@ button {
 
 /* LINKS */
 
+.inspiration {
+    background-color: #f7f7f7;
+    padding-top:48px;
+    }
+
+/* LINKS */
+
 .links {
 background-color: #f7f7f7;
-padding-top:48px;
 padding-bottom:100px;
 padding-right:24px;
 padding-left:24px;
 }
 
-.links p {
+.inspiration p {
     font-size:22px;
     font-family:'airbnbMd';
+    padding-right:24px;
+    padding-left:24px;
 }
 
 .titleLinks {
@@ -356,14 +364,16 @@ padding-left:24px;
     border-bottom: 1px;
     border-color:#ebebeb;
     border-bottom-style: solid;
+    padding-left:24px;
+    margin:0px;
 }
 
 .titleLinks li {
     float:left;
     display:block;
     font-size:14px;
-    padding:10px;
-    margin:0px 6px 6px 0px;
+    margin:10px 14px 0px 0px;
+    padding:0px 8px 14px 0px; 
 }
 
 .selectedLink{
@@ -374,9 +384,9 @@ padding-left:24px;
 }
 
 .gridContainerDouble {
+    padding-top:30px;
     display: grid;
     grid-template-columns: auto auto;
-    padding-top:32px;
     padding-bottom:48px;
     column-gap: 10px;
     row-gap: 24px;
