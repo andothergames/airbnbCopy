@@ -391,17 +391,17 @@ padding-left:24px;
   }
 
   .footer {
-    padding: 24px 0px;
+    padding: 18px 0px;
   }
 
   .footerBold {
     margin-bottom: 12px;
   }
 
-  .footerBold p span {
-    font-family:'airbnbMd';
-    font-size:12;
-  }
+  .footerCurrency {
+    font-family: 'airbnbMd';
+    font-size:14px;
+}
 
   .footer li {
     font-size: 14px;
@@ -410,6 +410,6 @@ padding-left:24px;
   .footer p {
     font-size:14px;
     margin: 0px 0px 2px;
-    padding-top:10px;
+    padding-top:8px;
   }
 
