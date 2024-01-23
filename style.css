@@ -85,7 +85,7 @@ hr {
     background-color:#ffffff;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top:24px;
+    padding-top:14px;
     position:sticky;
     box-shadow:  0px 5px 3px -3px #efefef;
     top:0px;
@@ -95,7 +95,6 @@ hr {
 .searchContainer {
     display: grid;
     grid-template-columns: repeat(3);
-    margin-top: 16px;
     gap: 6px;
 }
 
@@ -318,8 +317,8 @@ hr {
 /* CONTINUE */
 
 .continue {
-    margin-top: 56px;
-    margin-bottom: 56px;
+    margin-top: 36px;
+    margin-bottom: 36px;
     text-align: center;
 }
 
@@ -345,14 +344,18 @@ padding-right:24px;
 padding-left:24px;
 }
 
+.links p {
+    font-size:22px;
+    font-family:'airbnbMd';
+}
+
 .titleLinks {
     list-style-type: none;
     overflow: hidden;
     padding:0px;
     border-bottom: 1px;
+    border-color:#ebebeb;
     border-bottom-style: solid;
-    /* padding-left: 24px;
-    padding-right: 24px; */
 }
 
 .titleLinks li {
@@ -360,7 +363,7 @@ padding-left:24px;
     display:block;
     font-size:14px;
     padding:10px;
-    margin:6px 6px 6px 0px;
+    margin:0px 6px 6px 0px;
 }
 
 .selectedLink{
