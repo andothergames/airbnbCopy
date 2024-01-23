@@ -82,14 +82,14 @@ hr {
 /*-----------HEADER SEARCHBOX-----------*/
 
 .banner {
-    background-color:#ffffff;
+    background-color: #ffffff;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top:14px;
-    position:sticky;
-    box-shadow:  0px 5px 3px -3px #efefef;
-    top:0px;
-    z-index:2;
+    padding-top: 14px;
+    position: sticky;
+    box-shadow: 0px 5px 3px -3px #efefef;
+    top: 0px;
+    z-index: 2;
 }
 
 .searchContainer {
@@ -169,7 +169,6 @@ hr {
     font-size: 12px;
     color: #717171;
     text-align: center;
-    padding-bottom:12px;
 }
 
 .placeTypes img {
@@ -177,7 +176,7 @@ hr {
 }
 
 .placeTypes p {
-    padding-bottom: 8pxß;
+    padding-bottom: 8px;
 }
 
 .selected {
@@ -188,6 +187,8 @@ hr {
 .place1 {
     grid-column: 1;
     grid-row: 1;
+    border-bottom: #222222 2px solid;
+
 }
 
 .place2 {
@@ -225,7 +226,7 @@ hr {
     padding-right: 24px;
     padding-left: 24px;
     padding-top: 24px;
-    padding-bottom:14px;
+    padding-bottom: 14px;
     display: grid;
     grid-template-columns: auto;
     row-gap: 24px;
@@ -234,8 +235,8 @@ hr {
 .listing img {
     width: 352px;
     height: 352px;
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     border-radius: 16px;
     position: relative;
     z-index: -1;
@@ -338,45 +339,44 @@ button {
 
 .inspiration {
     background-color: #f7f7f7;
-    padding-top:48px;
-    }
+    padding-top: 48px;
+}
 
 /* LINKS */
 
 .links {
-background-color: #f7f7f7;
-padding-bottom:100px;
-padding-right:24px;
-padding-left:24px;
+    background-color: #f7f7f7;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .inspiration p {
-    font-size:22px;
-    font-family:'airbnbMd';
-    padding-right:24px;
-    padding-left:24px;
+    font-size: 22px;
+    font-family: 'airbnbMd';
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .titleLinks {
     list-style-type: none;
     overflow: hidden;
-    padding:0px;
+    padding: 0px;
     border-bottom: 1px;
-    border-color:#ebebeb;
+    border-color: #ebebeb;
     border-bottom-style: solid;
-    padding-left:24px;
-    margin:0px;
+    padding-left: 24px;
+    margin: 0px;
 }
 
 .titleLinks li {
-    float:left;
-    display:block;
-    font-size:14px;
-    margin:10px 14px 0px 0px;
-    padding:0px 8px 14px 0px; 
+    float: left;
+    display: block;
+    font-size: 14px;
+    margin: 10px 14px 0px 0px;
+    padding: 0px 8px 14px 0px;
 }
 
-.selectedLink{
+.selectedLink {
     border-bottom: #222222 2px solid;
     width: 44px;
     margin: 0px;
@@ -384,64 +384,61 @@ padding-left:24px;
 }
 
 .gridContainerDouble {
-    padding-top:30px;
+    padding-top: 30px;
     display: grid;
     grid-template-columns: auto auto;
-    padding-bottom:48px;
+    padding-bottom: 48px;
     column-gap: 10px;
     row-gap: 24px;
     border-bottom: #dddddd 1px solid;
-  }
-
-  .support,
-  .hosting,
-  .airbnb {
-    border-bottom: #dddddd 1px solid;
-    padding: 24px 0px;
-  }
-
-  .support ul,
-  .hosting ul,
-  .airbnb ul 
-  {
-    font-size:14px;
-    font-family: 'airbnbMd';
-    margin:0px 0px 14px 0px;
-    padding: 0px;
-  }
-
-  .support li,
-  .hosting li,
-  .airbnb li
-  {
-    font-size:14px;
-    font-family: 'airbnbBk';
-    list-style-type: none;
-    padding-bottom:12px;
-    margin:0px;
-    color:#222222;
-  }
-
-  .footer {
-    padding: 18px 0px;
-  }
-
-  .footerBold {
-    margin-bottom: 12px;
-  }
-
-  .footerCurrency {
-    font-family: 'airbnbMd';
-    font-size:14px;
 }
 
-  .footer li {
+.support,
+.hosting,
+.airbnb {
+    border-bottom: #dddddd 1px solid;
+    padding: 24px 0px;
+}
+
+.support ul,
+.hosting ul,
+.airbnb ul {
     font-size: 14px;
-  }
+    font-family: 'airbnbMd';
+    margin: 0px 0px 14px 0px;
+    padding: 0px;
+}
 
-  .footer p {
-    font-size:14px;
+.support li,
+.hosting li,
+.airbnb li {
+    font-size: 14px;
+    font-family: 'airbnbBk';
+    list-style-type: none;
+    padding-bottom: 12px;
+    margin: 0px;
+    color: #222222;
+}
+
+.footer {
+    padding: 18px 0px 40px;
+}
+
+.footerBold {
+    margin-bottom: 12px;
+}
+
+.footerCurrency {
+    font-family: 'airbnbMd';
+    font-size: 14px;
+}
+
+.footer li {
+    font-size: 14px;
+}
+
+.footer p {
+    font-size: 14px;
     margin: 0px 0px 2px;
-    padding-top:8px;
-  }
-
+    padding-top: 8px;
+}
