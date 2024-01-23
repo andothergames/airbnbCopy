@@ -36,18 +36,15 @@ h5 {
 h1 {
     font-size: 1.57em;
     font-family: 'airbnbMd';
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 0px 24px;
 }
 
 h2 {
     font-size: 1.28em;
     text-align: center;
     font-family: 'airbnbMd';
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px;
 }
-
 
 h3,
 .bold {
@@ -67,16 +64,15 @@ h5 {
 
 li {
     font-size: 1.42em;
-    padding: 0px;
-    margin: 0px;
 }
 
 .interpunct {
-    padding-right: 2px;
-    padding-left: 2px;
+    padding: 0px 2px;
 }
 
-
+.selected-link {
+    border-bottom: #222222 2px solid;
+}
 
 .black {
     color: #222222;
@@ -87,9 +83,7 @@ li {
 
 header {
     background-color: #ffffff;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 14px;
+    padding: 14px 24px;
     position: sticky;
     box-shadow: 0px 5px 3px -3px #efefef;
     top: 0px;
@@ -125,8 +119,7 @@ nav {
 .search-icon li {
     text-align: center;
     width: 100%;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding: 14px 0px;
     float: left;
 }
 
@@ -170,7 +163,7 @@ nav {
 
 .place-types {
     display: grid;
-    grid-template-columns: 5;
+    grid-template-columns: auto auto auto auto auto;
     width: 352px;
     padding-top: 12px;
     font-size: 0.857em;
@@ -186,7 +179,7 @@ nav {
     padding-bottom: 8px;
 }
 
-
+/* 
 
 .place1 {
     grid-column: 1;
@@ -212,16 +205,13 @@ nav {
 .place5 {
     grid-column: 5;
     grid-row: 1;
-}
+} */
 
 
 /* ----------- LISTINGS ----------- */
 
 .listing {
-    padding-right: 24px;
-    padding-left: 24px;
-    padding-top: 24px;
-    padding-bottom: 14px;
+    padding: 24px 24px 14px;
     display: grid;
     grid-template-columns: auto;
     row-gap: 24px;
@@ -230,8 +220,6 @@ nav {
 .listing img {
     width: 352px;
     height: 352px;
-    padding: 0px;
-    margin: 0px;
     border-radius: 16px;
     position: relative;
     z-index: -1;
@@ -313,8 +301,7 @@ nav {
 /*----------- CONTINUE ----------- */
 
 .continue {
-    margin-top: 36px;
-    margin-bottom: 36px;
+    margin: 36px 0px;
     text-align: center;
 }
 
@@ -340,19 +327,16 @@ button {
 
 .links {
     background-color: #f7f7f7;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding: 0px 24px;
 }
 
 .inspiration-links {
     list-style-type: none;
     overflow: hidden;
-    padding: 0px;
     border-bottom: 1px;
     border-color: #ebebeb;
     border-bottom-style: solid;
     padding-left: 24px;
-    margin: 0px;
 }
 
 .inspiration-links li {
@@ -363,18 +347,10 @@ button {
     padding: 0px 8px 14px 0px;
 }
 
-.selected-link {
-    border-bottom: #222222 2px solid;
-    width: 44px;
-    margin: 0px;
-    margin-left: 20px;
-}
-
 .grid-container-double {
-    padding-top: 30px;
+    padding: 30px 0px 48px;
     display: grid;
     grid-template-columns: auto auto;
-    padding-bottom: 48px;
     column-gap: 10px;
     row-gap: 24px;
     border-bottom: #dddddd 1px solid;
